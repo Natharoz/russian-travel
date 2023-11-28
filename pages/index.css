@@ -1,54 +1,18 @@
 @import url('../fonts/fonts.css');
 @import url('../vendor/normalize.css');
 
-.page {
-  min-width: 1280px;
-  margin: 0 auto;
-  font-family: 'Inter', Arial, sans-serif;
-  background: #2A2C2F;
-  color: #fff;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
-  text-rendering: optimizeLegibility;
-}
+@import url('../blocks/page/page.css');
 
-.header {
-  display: flex;
-  padding: 28px 48px 0;
-}
+@import url('../blocks/header/header.css');
+@import url('../blocks/header/__logo/header__logo.css');
+@import url('../blocks/header/__lang-links/header__lang-links.css');
+@import url('../blocks/header/__lang-link/header__lang-link.css');
+@import url('../blocks/header/__lang-link/__lang-link_active/header__lang-link_active.css');
 
-.header__logo {
-  background-image: url('../images/header-logo.svg');
-  background-repeat: no-repeat;
-  width: 100%;
-  min-height: 52px;
-}
+@import url('../blocks/lead/lead.css');
+@import url('../blocks/lead/__title/lead__title.css');
+@import url('../blocks/lead/__subtitle/lead__subtitle.css');
+@import url('../blocks/lead/__image/lead__image.css');
+@import url('../blocks/lead/__caption/lead__caption.css');
 
-.header__lang-links {
-  display: flex;
-  align-items: center;
-}
 
-.header__lang-link {
-  margin-right: 18px;
-  color: #fff;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 28px;
-  text-decoration: none;
-}
-
-.header__lang-link:last-child {
-  margin-right: 0;
-}
-
-.header__lang-link_active {
-  text-decoration: underline;
-}
-
-.header__title {
-}
