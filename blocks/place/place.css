@@ -1,8 +1,15 @@
 .place {
+  padding-top: 80px;
   display: grid;
   grid-template-columns: 460px 484px;
   grid-template-rows: 1fr, 1fr;
   grid-template-areas:
   "title website"
   "img text";
+  column-gap: 40px;
+  row-gap: 48px;
+}
+
+.place:first-child {
+  padding-top: 0;
 }
