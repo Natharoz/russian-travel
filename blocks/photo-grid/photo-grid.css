@@ -1,3 +1,13 @@
-.photo-grid {
-
+/* @media screen and (min-width: 730px) {
+  .photo-grid {
+    font-size: 40px;
+    line-height: 44px;
+    max-width: 290px;
+  }
+} */
+@media screen and (min-width: 1280px) {
+  .photo-grid {
+    padding: 0;
+    min-width: 1184px;
+  }
 }
