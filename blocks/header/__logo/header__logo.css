@@ -2,7 +2,7 @@
   background-image: url('../../../images/header-logo.svg');
   background-repeat: no-repeat;
   background-size: contain;
-  min-width: 176px;
+  width: 100%;
   min-height: 52px;
 }
 
