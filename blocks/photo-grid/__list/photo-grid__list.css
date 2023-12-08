@@ -6,3 +6,15 @@
   grid-template-rows: repeat(auto-fill, 1fr);
   gap: 16px;
 }
+
+@media screen and (min-width: 984px) and (max-width: 1140px) {
+  .photo-grid__list {
+    gap: 14px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .photo-grid__list {
+    gap: 12px;
+  }
+}

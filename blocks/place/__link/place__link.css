@@ -5,4 +5,10 @@
   font-weight: 400;
   line-height: 22px; /* 122.222% */
   text-decoration-line: underline;
+  transition: opacity .3s ease;
+  word-break: break-all;
+}
+
+.place__link:hover {
+  opacity: .8;
 }

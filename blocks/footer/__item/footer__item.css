@@ -1,3 +1,8 @@
 .footer__item {
   list-style-type: none;
+  transition: opacity .3s ease;
+}
+
+.footer__item:hover {
+  opacity: .8;
 }

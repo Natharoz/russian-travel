@@ -5,3 +5,16 @@
   font-weight: 400;
   line-height: 16px; /* 114.286% */
 }
+
+@media screen and (max-width: 730px) {
+  .footer__copyright {
+    margin-top: 32px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .footer__copyright {
+    margin-top: 48px;
+    line-height: 14px;
+  }
+}

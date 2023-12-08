@@ -7,3 +7,15 @@
   grid-auto-flow: row;
   row-gap: 80px;
 }
+
+@media screen and (max-width: 984px) {
+  .places__list {
+    row-gap: 73px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .places__list {
+    row-gap: 50px;
+  }
+}
